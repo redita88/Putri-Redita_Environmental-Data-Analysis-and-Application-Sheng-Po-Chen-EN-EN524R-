@@ -3,8 +3,7 @@
   "nbformat_minor": 0,
   "metadata": {
     "colab": {
-      "provenance": [],
-      "include_colab_link": true
+      "provenance": []
     },
     "kernelspec": {
       "name": "python3",
@@ -16,16 +15,6 @@
   },
   "cells": [
     {
-      "cell_type": "markdown",
-      "metadata": {
-        "id": "view-in-github",
-        "colab_type": "text"
-      },
-      "source": [
-        "<a href=\"https://colab.research.google.com/github/redita88/Putri-Redita_Environmental-Data-Analysis-and-Application-Sheng-Po-Chen-EN-EN524R-/blob/main/W2_Reproducible/Notebook/W2_Pyhton_Practice_11570018_Putri_Redita_ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
-      ]
-    },
-    {
       "cell_type": "code",
       "source": [
         "!git clone https://github.com/redita88/Putri-Redita_Environmental-Data-Analysis-and-Application-Sheng-Po-Chen-EN-EN524R-/blob/main/W2_Reproducible/Notebook/W2_Pyhton_Practice_11570018_Putri_Redita_ipynb.git"
@@ -35,9 +24,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "xvqy1iRaUeVb",
-        "outputId": "7dcbe806-1b5a-416a-9c9d-2480274bd154"
+        "outputId": "806ee077-a7c7-49e1-a489-3c57a413110b"
       },
-      "execution_count": 1,
+      "execution_count": 2,
       "outputs": [
         {
           "output_type": "stream",
