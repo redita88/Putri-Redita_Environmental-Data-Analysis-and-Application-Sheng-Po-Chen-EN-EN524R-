@@ -3,7 +3,8 @@
   "nbformat_minor": 0,
   "metadata": {
     "colab": {
-      "provenance": []
+      "provenance": [],
+      "include_colab_link": true
     },
     "kernelspec": {
       "name": "python3",
@@ -14,6 +15,40 @@
     }
   },
   "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/redita88/Putri-Redita_Environmental-Data-Analysis-and-Application-Sheng-Po-Chen-EN-EN524R-/blob/main/W2_Reproducible/Notebook/W2_Pyhton_Practice_11570018_Putri_Redita_ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "!git clone https://github.com/redita88/Putri-Redita_Environmental-Data-Analysis-and-Application-Sheng-Po-Chen-EN-EN524R-/blob/main/W2_Reproducible/Notebook/W2_Pyhton_Practice_11570018_Putri_Redita_ipynb.git"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "xvqy1iRaUeVb",
+        "outputId": "7dcbe806-1b5a-416a-9c9d-2480274bd154"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Cloning into 'W2_Pyhton_Practice_11570018_Putri_Redita_ipynb'...\n",
+            "fatal: repository 'https://github.com/redita88/Putri-Redita_Environmental-Data-Analysis-and-Application-Sheng-Po-Chen-EN-EN524R-/blob/main/W2_Reproducible/Notebook/W2_Pyhton_Practice_11570018_Putri_Redita_ipynb.git/' not found\n"
+          ]
+        }
+      ]
+    },
     {
       "cell_type": "code",
       "source": [
@@ -29,7 +64,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": 1,
+      "execution_count": null,
       "metadata": {
         "id": "KtVxlz8QUiUG"
       },
@@ -69,7 +104,7 @@
         "id": "UU6INlAruXqg",
         "outputId": "428618b0-1612-49bd-dd92-e1492bebaded"
       },
-      "execution_count": 2,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -310,7 +345,7 @@
         "id": "JCpmwLX26SFG",
         "outputId": "78e2419e-6ce9-40e9-ee0e-6dc4710589a1"
       },
-      "execution_count": 3,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -372,7 +407,7 @@
         "id": "VfkG8ico7DJ-",
         "outputId": "8195108d-0bed-4168-9992-4bcc98d9323b"
       },
-      "execution_count": 4,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -411,7 +446,7 @@
         "id": "3_wTOpup7uLb",
         "outputId": "10be7ba4-b762-4df8-9f3d-e77370f88e3c"
       },
-      "execution_count": 5,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -655,7 +690,7 @@
         "id": "mvPsGwxu8vbQ",
         "outputId": "3aa79e4e-7064-4a12-9dcf-f2e87960c1d0"
       },
-      "execution_count": 6,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -949,7 +984,7 @@
         "id": "Xzmw2Z-qh5GH",
         "outputId": "2cfd1aa8-39b0-485b-97dd-2c6e77ebe4fd"
       },
-      "execution_count": 7,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "display_data",
