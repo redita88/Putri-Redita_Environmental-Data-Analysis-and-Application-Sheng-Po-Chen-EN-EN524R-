@@ -1,3 +1,32 @@
+# Assignment 4 – Data Processing
+
+## Research Question
+How does relative humidity (RH) vary with air temperature (AMB_TEMP) in Taiwan?
+
+## Data Source
+- Provider: Taiwan Ministry of Environment (MOENV)
+- Dataset: AQX_P_35
+- Access method: MOENV Open Data API
+
+## Processing Workflow
+The Assignment 4 processing workflow is documented in `notebooks/03_processing.ipynb`.
+
+The main processing steps are:
+1. Retrieve AQX_P_35 data from the MOENV Open Data API.
+2. Select AMB_TEMP and RH observations.
+3. Convert concentration values to numeric format.
+4. Remove invalid or missing concentration values.
+5. Reshape the data from long to wide format by monitoring site and time.
+6. Remove observations without complete AMB_TEMP–RH pairs.
+7. Create the final analysis-ready table.
+
+## Processed Output
+`analysis_ready_temperature_humidity.csv`
+
+The final analysis-ready dataset contains 476 complete temperature–humidity observations.
+
+
+
 ## W3 Data Source
 
 ### MOENV Air Quality Data
