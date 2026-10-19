@@ -1,0 +1,6 @@
+﻿QA/QC Check,Number of Observations,Decision
+Assignment 4 processed dataset,476,Starting dataset
+Missing AMB_TEMP or RH,0,Document
+Invalid RH outside 0–100%,0,Exclude if physically invalid
+Potential IQR outliers,11,Flag and retain
+Primary QA/QC dataset,476,Use for primary analysis

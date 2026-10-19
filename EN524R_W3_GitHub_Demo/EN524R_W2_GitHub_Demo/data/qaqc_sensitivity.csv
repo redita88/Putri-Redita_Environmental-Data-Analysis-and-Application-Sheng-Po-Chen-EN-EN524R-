@@ -1,0 +1,3 @@
+﻿Scenario,N,Mean AMB_TEMP,Mean RH,Correlation (r)
+All valid observations,476,27.20399159663865,64.83823529411765,-0.4999246364517137
+Potential outliers temporarily excluded,465,27.31505376344086,64.68387096774194,-0.4085056857504346
