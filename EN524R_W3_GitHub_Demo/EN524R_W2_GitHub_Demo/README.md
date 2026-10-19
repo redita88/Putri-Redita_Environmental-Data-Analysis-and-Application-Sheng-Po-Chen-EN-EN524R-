@@ -1,3 +1,18 @@
+## Assignment 5 – Data QA/QC
+
+This assignment evaluates the quality of the processed environmental
+dataset from Assignment 4.
+
+- Selected variables: AMB_TEMP and RH
+- Starting observations: 476
+- Missing AMB_TEMP/RH: 0
+- Invalid RH outside 0–100%: 0
+- Potential IQR outliers: 11
+- Primary QA/QC dataset: 476 observations
+- Sensitivity analysis: correlation changed from r = -0.500 to r = -0.409
+
+Potential statistical outliers were flagged and retained rather than
+automatically removed.
 # Assignment 4 – Data Processing
 
 ## Research Question
