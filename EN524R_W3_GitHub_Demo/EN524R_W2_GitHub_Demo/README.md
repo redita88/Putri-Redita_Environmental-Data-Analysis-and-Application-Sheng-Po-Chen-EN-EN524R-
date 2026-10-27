@@ -1,4 +1,4 @@
-#Assignment 6 — Environmental Statistics & Scientific Interpretation
+**#Assignment 6 — Environmental Statistics & Scientific Interpretation**
 
 **Notebook:** `notebooks/05_statistics.ipynb`
 
