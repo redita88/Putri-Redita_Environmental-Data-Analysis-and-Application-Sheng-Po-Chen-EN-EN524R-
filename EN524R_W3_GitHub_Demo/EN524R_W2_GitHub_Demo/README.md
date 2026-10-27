@@ -1,3 +1,41 @@
+## W6 — Environmental Statistics
+
+**Notebook:** `notebooks/05_statistics.ipynb`
+
+### Research Question
+How is relative humidity (RH) related to air temperature (AMB_TEMP) in the Taiwan environmental dataset?
+
+### Selected Variables
+- `RH`: Relative Humidity (%)
+- `AMB_TEMP`: Air Temperature (°C)
+
+### Statistical Analysis
+1. Descriptive statistics: mean, median, SD, Q1, Q3, and IQR.
+2. Distribution of relative humidity.
+3. IID bootstrap 95% confidence interval for mean RH.
+4. Lag-1 temporal autocorrelation assessment.
+5. Pearson and Spearman correlation between `AMB_TEMP` and `RH`.
+6. Sensitivity analysis using IQR-based potential RH outliers.
+
+### Main Findings
+- Mean RH: **64.84%**
+- Median RH: **65.00%**
+- SD: **9.15%**
+- IQR: **12.00%**
+- IID bootstrap 95% CI for mean RH: **64.01%–65.66%**
+- Pearson correlation: **r = -0.500**
+- Spearman correlation: **ρ = -0.402**
+- Eight potential RH outliers were identified using the IQR rule.
+- After temporarily excluding these potential outliers, Pearson correlation changed to **r = -0.445** and Spearman correlation to **ρ = -0.383**.
+
+### Interpretation
+Air temperature and relative humidity showed a moderate negative association in the analyzed dataset. The relationship remained negative after the potential outliers were temporarily excluded, although its magnitude became weaker.
+
+### Limitations
+The dataset contains only one calendar day of observations, which limits temporal representativeness. Temporal dependence may cause the IID bootstrap confidence interval to underestimate uncertainty, and a day-block bootstrap could not be applied because only one calendar day was available. The observed statistical association does not demonstrate causation.
+
+### Reproducibility
+Run `notebooks/05_statistics.ipynb` to reproduce the statistical summaries, figures, bootstrap analysis, correlations, and sensitivity analysis.
 ## Assignment 5 – Data QA/QC
 
 This assignment evaluates the quality of the processed environmental
