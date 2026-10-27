@@ -1,0 +1,3 @@
+Scenario,N,Pearson_r,Spearman_rho
+All QA/QC-valid observations,476,-0.4999246364517139,-0.40153359218223394
+IQR potential outliers excluded,468,-0.4452937956636129,-0.3825898029803734
